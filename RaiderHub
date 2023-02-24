@@ -1002,9 +1002,4 @@ function Library:Window(Setting)
     end
     return Tabs
 end
-
-Library:Window({
-    Name = "Crxy Hub",
-    Time = true
-})
 return Library 
