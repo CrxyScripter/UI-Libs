@@ -707,7 +707,7 @@ function Library:Create(table)
             end
             return DropdownFunc
         end
-        function ChannelContent:Line()
+        function ElementHandler:Line()
 	    local Seperator1 = Instance.new("Frame")
 	    local Seperator2 = Instance.new("Frame")
 
