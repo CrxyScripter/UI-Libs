@@ -707,6 +707,24 @@ function Library:Create(table)
             end
             return DropdownFunc
         end
+        function ChannelContent:Line()
+	    local Seperator1 = Instance.new("Frame")
+	    local Seperator2 = Instance.new("Frame")
+
+	    Seperator1.Name = "Seperator1"
+    	    Seperator1.Parent = holder
+	    Seperator1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	    Seperator1.BackgroundTransparency = 1.000
+	    Seperator1.Position = UDim2.new(0, 0, 0.350318581, 0)
+            Seperator1.Size = UDim2.new(0, 100, 0, 8)
+
+	    Seperator2.Name = "Seperator2"
+	    Seperator2.Parent = Seperator1
+	    Seperator2.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+	    Seperator2.BorderSizePixel = 0
+	    Seperator2.Position = UDim2.new(0, 0, 0, 4)
+	    Seperator2.Size = UDim2.new(0, 441, 0, 1)
+        end
         return ElementHandler
     end
     return tabHandler
