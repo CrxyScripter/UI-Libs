@@ -532,6 +532,7 @@ function Library:Create(table)
 
             textBox.FocusLost:Connect(function()
                 callback(textBox.Text)
+                textBox.Text = ""
             end)
         end
 
