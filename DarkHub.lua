@@ -512,6 +512,7 @@ function Library:Create(table)
             textBox.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
             textBox.Position = UDim2.fromScale(0.864, 0.188)
             textBox.Size = UDim2.fromOffset(52, 19)
+            textBox.TextScaled = true
 
             local uICorner14 = Instance.new("UICorner")
             uICorner14.Name = "uICorner14"
