@@ -410,7 +410,7 @@ function Library:Window(Setting)
         UIPadding.PaddingTop = UDim.new(0, 5)
         
         UIListLayout:GetPropertyChangedSignal("AbsoluteContentSize"):Connect(function()
-        Page.CanvasSize = UDim2.new(0,0,0,UIListLayout.AbsoluteContentSize.Y + 1) 
+        Page.CanvasSize = UDim2.new(0,0,0,UIListLayout.AbsoluteContentSize.Y + 15) 
         end)
         
         TabButton.MouseButton1Click:Connect(function()
