@@ -7,9 +7,9 @@ local TweenService = game:GetService("TweenService")
 local UserInputService = game:GetService("UserInputService")
 
 local Theme = {
-    Header = Color3.fromRGB(255, 0, 0), 
-    DropHeader = Color3.fromRGB(200, 0, 0),
-    Scroll = Color3.fromRGB(255, 0, 0), 
+    Header = Color3.fromRGB(0, 255, 0), 
+    DropHeader = Color3.fromRGB(0, 180, 0),
+    Scroll = Color3.fromRGB(0, 255, 0), 
     Text = Color3.fromRGB(255,255,255)
 }
 
